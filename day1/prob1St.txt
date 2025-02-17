@@ -1,0 +1,60 @@
+`Day 1 : Problem : 01
+---
+`Scenario: Employee Attendance and Salary Calculation`  
+`Problem Statement:`  
+A company wants to automate its `employee attendance and 
+salary calculation system` using C programming. 
+The company follows these rules:  
+
+1. An employee can work for a `maximum of 30 days per month`.
+2. The `basic salary` of an employee is `fixed` 
+   but varies from employee to employee.
+3. If an employee works for `more than 25 days`, 
+   they receive a `5% attendance bonus` on their salary.
+4. If an employee works for `less than 10 days`, 
+   they receive `only 50%` of their salary.
+5. The company wants to `classify employees` 
+   based on their working days:  
+   - `Excellent` (More than 25 days)  
+   - `Good` (Between 15 and 25 days)  
+   - `Needs Improvement` (Less than 15 days)  
+
+`Requirements:`  
+1. `Input:`  
+   - Employee Name  
+   - Employee ID  
+   - Basic Salary  
+   - Total Days Worked (between 0 to 30)  
+
+2. `Output:`  
+   - Final Salary (after applying rules)  
+   - Attendance Bonus (if applicable)  
+   - Employee Performance Category  
+   
+---
+
+`Breakdown for Day 1 Learning Objectives:`
+1. `Basic Input & Output` → Taking employee details as input.  
+2. `Variables & Data Types` → Storing name (string), ID (int), salary (float), and working days (int).  
+3. `Control Statements (if-else, loops)` → Applying salary rules and performance classification.  
+4. `Complexity Analysis` → Understanding how the logic scales when the company has many employees.  
+
+---
+
+`Sample Test Case:`  
+`Input:`  
+```plaintext
+Enter Employee Name: John Doe  
+Enter Employee ID: 101  
+Enter Basic Salary: 50000  
+Enter Total Days Worked: 27  
+```
+`Output:`  
+```plaintext
+Employee Name: John Doe  
+Employee ID: 101  
+Basic Salary: 50000  
+Attendance Bonus: 2500  
+Final Salary: 52500  
+Performance: Excellent  
+```
