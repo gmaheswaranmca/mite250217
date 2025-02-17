@@ -1,0 +1,20 @@
+`1. Loan Eligibility Checker`  
+`Scenario:`  
+A bank wants to automate `loan approvals` based on the following conditions:  
+- `Minimum salary` required: ₹30,000  
+- `Minimum credit score`: 750  
+- `Minimum work experience`: 2 years  
+
+Write a program to determine if a customer is `eligible` for a loan.
+
+`Input Example:`  
+```
+Enter Salary: 40000
+Enter Credit Score: 760
+Enter Experience (Years): 3
+```
+
+`Output Example:`  
+```
+Loan Approved
+```

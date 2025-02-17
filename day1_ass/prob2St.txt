@@ -1,0 +1,20 @@
+`2. Manufacturing Quality Control`  
+`Scenario:`  
+A manufacturing unit inspects `product weights` 
+before packaging. A product is `accepted` 
+if its weight is `within the range of 950g to 1050g`.  
+Write a program to process `N` product weights and display:  
+- `Accepted Products Count`  
+- `Rejected Products Count`  
+
+`Input Example:`  
+```
+Enter number of products: 5
+Enter weights (in grams): 970 890 1055 1000 1020
+```
+
+`Output Example:`  
+```
+Accepted Products: 3
+Rejected Products: 2
+```

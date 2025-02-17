@@ -1,0 +1,19 @@
+`3. Toll Booth Collection System`  
+`Scenario:`  
+A highway toll booth records `vehicles` passing through and their payments:  
+- `Car`: ₹50  
+- `Truck`: ₹100  
+- `Bike`: ₹20  
+
+Write a program that `tracks the total revenue` collected for `N` vehicles.
+
+`Input Example:`  
+```
+Enter number of vehicles: 4
+Enter vehicle types: Car Truck Bike Car
+```
+
+`Output Example:`  
+```
+Total Toll Collection: ₹220
+```
