@@ -1,0 +1,21 @@
+`2. Reverse Words in a Sentence (Using Strings)`
+`Problem Statement:`  
+Write a function to `reverse the words` in a sentence while keeping word order intact.  
+Example:  
+- Input: `"Hello World"`  
+- Output: `"olleH dlroW"`  
+
+`Function Prototype:`  
+```c
+void reverseWords(char str[]);
+```
+
+`Sample Test Case:`  
+`Input:`  
+```plaintext
+Enter a sentence: Hello World  
+```
+`Output:`  
+```plaintext
+Reversed Sentence: olleH dlroW  
+```
