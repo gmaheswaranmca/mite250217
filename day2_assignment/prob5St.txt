@@ -21,3 +21,53 @@ Student Records:
 Alice - 85
 Bob - 90
 ```
+-------------------------------------
+//best practice 
+struct Student {
+    char name[255];
+    int marks;
+};
+
+typedef struct Student Student_t;
+-------------------------------------
+//best practice 
+struct _Student {
+    char name[255];
+    int marks;
+};
+
+typedef struct _Student Student;
+
+----------------------------------
+//short cut not best practice
+typedef struct {
+    char name[255];
+    int marks;
+} Student_t;
+
+----------------------------------
+//nested structure 
+//poor practice 
+struct Student {
+    char name[255];
+    struct {
+        int science;
+        int maths;
+    } marks;
+};
+
+typedef struct Student Student_t;
+----------------------------------
+//nested structure 
+//best practice 
+struct Marks{
+    int science;
+    int maths;
+};
+typedef struct Marks Marks_t;
+struct Student {
+    char name[255];
+    Marks_t marks;
+};
+
+typedef struct Student Student_t;

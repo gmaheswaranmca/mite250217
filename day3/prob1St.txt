@@ -1,0 +1,11 @@
+int main() {
+    short int ages[] = {45, 42, 14, 20, 70};
+    displayAges(ages, 5, 0);
+    return 0; 
+}
+
+for above driver code,
+complete the definition of function displayAges
+which will do forward traversal of ages array
+using recursion.
+And include all the libraries required.
