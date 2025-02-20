@@ -1,0 +1,24 @@
+`3. Employee Payroll System`  
+`Scenario:`  
+A `company` maintains employee salary details, 
+including `Emp ID, Name, Basic Salary, and Allowances`. 
+The system should:  
+- Store and compute `Gross Salary (Basic + Allowances)`  
+- Save payroll data to a `file`  
+- Allow `retrieval of an employee's salary`  
+
+`Input Example:`  
+```
+Enter number of employees: 2
+Employee 1: 501, Alice, ₹50000, ₹10000
+Employee 2: 502, Bob, ₹60000, ₹12000
+
+Enter Employee ID to search: 501
+```
+
+`Output Example:`  
+```
+Employee: Alice
+Gross Salary: ₹60000
+Record saved in "payroll.txt"
+```

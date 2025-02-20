@@ -1,0 +1,24 @@
+`1. Medical Store Inventory System`  
+`Scenario:`  
+A `pharmacy` wants to track medicines with `ID, Name, Expiry Date, and Price`. The system should:  
+- Store details using `structures`  
+- Save and read data from a `file`  
+- Display medicines `sorted by expiry date`  
+
+`Input Example:`  
+```
+Enter number of medicines: 3
+Medicine 1: 201, Paracetamol, 2026-05-10, ₹50
+Medicine 2: 202, Ibuprofen, 2024-08-15, ₹75
+Medicine 3: 203, Cough Syrup, 2025-12-01, ₹120
+```
+
+`Output Example:`  
+```
+Sorted Medicines (by Expiry Date):
+1. Ibuprofen - 2024-08-15
+2. Cough Syrup - 2025-12-01
+3. Paracetamol - 2026-05-10
+
+Records saved in "medicine_inventory.txt"
+```

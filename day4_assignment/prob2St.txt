@@ -1,0 +1,24 @@
+`2. Car Rental System`  
+`Scenario:`  
+A `car rental company` maintains records of available cars with `Car ID, Model, Rent Per Day`. The system should:  
+- Use `unions` to store `either daily rent or total rent`  
+- Save data in a `file`  
+- Allow `updating rental information`  
+
+`Input Example:`  
+```
+Enter number of cars: 3
+Car 1: 401, Honda City, ₹1500/day
+Car 2: 402, Ford EcoSport, ₹1800/day
+Car 3: 403, Maruti Swift, ₹1200/day
+```
+
+`Output Example:`  
+```
+Cars Available:
+1. Honda City - ₹1500/day
+2. Ford EcoSport - ₹1800/day
+3. Maruti Swift - ₹1200/day
+
+Data saved in "car_rentals.txt"
+```
