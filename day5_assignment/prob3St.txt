@@ -1,0 +1,15 @@
+
+`3. Playlist Management System`  
+`Scenario:`  
+A `music streaming app` maintains a `playlist` using a `circular linked list`. The system should:  
+- Allow `"Next Song"` navigation  
+- Loop `back to the first song after the last song`  
+- Display `currently playing song`  
+
+`Operations Example:`  
+```
+Current Song: Song A  
+Next Song: Song B  
+Next Song: Song C  
+Next Song: Song A  (Looped back)  
+```
