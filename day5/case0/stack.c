@@ -1,4 +1,5 @@
 #include "stack.h"
+#include<stdio.h>
 void StackInit(Stack* stk) {
     stk->_size = 0;
     stk->_top = -1;
