@@ -1,0 +1,19 @@
+`1. Browser History Navigation`  
+`Scenario:`  
+A web browser maintains `backward and forward navigation` using a `stack`. The system should:  
+- Implement `a stack for browser history`  
+- Allow `"Go Back" and "Go Forward"` operations  
+- Display `current and previous page URLs`  
+
+`Operations Example:`  
+```
+Visited: google.com
+Visited: github.com
+Visited: stackoverflow.com
+
+Action: Go Back
+Current Page: github.com
+
+Action: Go Forward
+Current Page: stackoverflow.com
+```
