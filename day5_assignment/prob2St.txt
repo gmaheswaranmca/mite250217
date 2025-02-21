@@ -1,0 +1,15 @@
+`2. Warehouse Stock Management`  
+`Scenario:`  
+A `warehouse` stores items in a `stack-based system` (Last-In-First-Out). The system should:  
+- Add new items to the `top of the stack`  
+- Process `dispatches from the top`  
+- Show `remaining stock`  
+
+`Operations Example:`  
+```
+Stock Added: Item A  
+Stock Added: Item B  
+Stock Added: Item C  
+
+Dispatching Item: C  
+Remaining Stock: A, B  
