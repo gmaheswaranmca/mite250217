@@ -1,0 +1,16 @@
+```c
+typedef struct {
+    int rollNo;          // Student Roll Number
+    char name[50];       // Student Name
+    int maths, physics, chemistry, cs; // Subject Marks
+    int totalMarks;      // Sum of all subjects
+    float percentage;    // Percentage calculation
+    char grade;          // Assigned grade (A, B, C, D, F)
+} Student;
+```
+`students.txt`
+101 John_Doe 85 78 92 88  
+102 Alice_Smith 90 85 96 91  
+103 Bob_Jackson 70 65 75 80  
+104 Charlie_Watson 95 98 99 100  
+105 David_Brown 55 60 58 53 
