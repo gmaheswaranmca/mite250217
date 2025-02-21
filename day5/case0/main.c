@@ -1,6 +1,7 @@
 #include<stdio.h>
 #include "Employee.h"
 #include "stack.h"
+
 void readEmployees(Employee emp[], int n);
 void displayEmployees(Employee emp[], int n);
 void displayEmployeesUsingStack(Employee emp[], int n);
@@ -74,3 +75,4 @@ void displayEmployeesUsingStack(Employee emp[], int n) {
     }
     printf("--------------------------------------------------------------------\n");
 }
+    
