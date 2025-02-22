@@ -1,0 +1,22 @@
+salaries 20, 10, 15, 12, 13
+          0   1  2    3   4
+
+
+1. select each element 
+   till one element before last element
+2. compare selected element 
+   with next elements    
+3. if we find min element in the next elements 
+   swap selected element and min element 
+
+20, 10, 15, 12, 13 
+--
+I = 0
+minIndex = 0 1 
+--
+10, 20, 15, 12, 13
+    --
+I = 1
+minIndex = 3
+--
+10, 12, 15, 20, 13 ...
