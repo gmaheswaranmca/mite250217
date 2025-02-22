@@ -1,0 +1,19 @@
+`1. Student Result Analysis System`  
+`Scenario:`  
+A university wants to `analyze student marks` 
+using sorting and searching techniques. 
+The system should:  
+- Sort `student records` by `total marks` (descending)  
+- Allow `binary search` for a student's record based on roll number  
+- Display `top 3 students`  
+
+`Operations Example:`  
+```
+Input: 
+[{"Roll No": 101, "Name": "Alice", "Marks": 85}, 
+ {"Roll No": 102, "Name": "Bob", "Marks": 90}, 
+ {"Roll No": 103, "Name": "Charlie", "Marks": 75}]
+
+Sorted by Marks: Bob (90), Alice (85), Charlie (75)
+Search Roll No 102: Found (Bob, Marks: 90)
+```
