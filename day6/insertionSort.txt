@@ -1,0 +1,23 @@
+/*
+20, 10, 15, 12, 13
+
+sorted                unsorted            13  
+20,                 | 10, 15, 12, 13
+10, 20              | 15, 12, 13   
+10 15 20            | 12 13
+10 12 15 20         | 13
+10 12 13 15 20
+
+*/
+
+salaries    20, 10, 15, 12, 13
+            0    1   2   3  4 
+
+            10 12 13 15         | 14            target = 13
+            0   1  2  3            4            targetIndex = 2
+
+
+
+sortedIndex: 1
+salaries[sortedIndex]: 20
+salaries[sortedIndex] > target : 20>13:1
