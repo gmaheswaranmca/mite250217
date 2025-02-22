@@ -1,0 +1,17 @@
+`2. Online Shopping – Price Sorting & Search`  
+`Scenario:`  
+An `e-commerce` website allows users to sort and search for products. The system should:  
+- Sort `products based on price` (ascending)  
+- Allow `binary search` for a product by name  
+- Display `the cheapest and most expensive product`  
+
+`Operations Example:`  
+```
+Input: 
+[{"Name": "Laptop", "Price": 50000}, 
+ {"Name": "Mobile", "Price": 20000}, 
+ {"Name": "Headphones", "Price": 5000}]
+
+Sorted by Price: Headphones (5000), Mobile (20000), Laptop (50000)
+Search 'Mobile': Found (Price: 20000)
+```
