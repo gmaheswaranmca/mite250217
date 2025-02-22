@@ -1,0 +1,8 @@
+salaries : 10.0f, 12.0f, 13.0f, 15.0f, 20.0f
+            0      1       2     3      4
+searchSalary = 15.0f
+left                            0 3       
+right                           4
+mid                             2 3
+salaries[mid] == searchSalary   0 1
+searchSalary < salaries[mid]    0
