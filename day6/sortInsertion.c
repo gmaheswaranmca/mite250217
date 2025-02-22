@@ -6,7 +6,7 @@ int main() {
     int salariiesCount = 5;
     printf("Before Sort:\n");printSalaries(salaries, salariiesCount);
     sortInsertion(salaries, salariiesCount);
-    printf("Before Sort:\n");printSalaries(salaries, salariiesCount);
+    printf("After Sort:\n");printSalaries(salaries, salariiesCount);
     return 0;
 }
 void printSalaries(float* salaries, int size) {
