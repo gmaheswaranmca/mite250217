@@ -1,0 +1,4 @@
+I                               0   1   2
+salaries[I]                     20  10  15
+searchSalary                    15
+salaries[I] == searchSalary     0   0   1
